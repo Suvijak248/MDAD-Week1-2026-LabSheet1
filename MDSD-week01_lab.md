@@ -1353,7 +1353,7 @@ class _AiChatPageState extends State<AiChatPage> {
     super.initState();
     // เริ่มต้น Gemini Model
     _model = GenerativeModel(
-      model: 'gemini-1.5-flash',  // ใช้ Flash สำหรับ Demo (เร็วและฟรี)
+      model: 'gemini-2.0-flash',  // ใช้ Flash สำหรับ Demo (เร็วและฟรี)
       apiKey: ApiConfig.geminiApiKey,
     );
   }
@@ -1688,7 +1688,7 @@ flutter run
 ```
 
 **ทดลองส่งข้อความต่อไปนี้:**
-
+** ให้ setting เพิ่ม keyboard ภาษาไทยก่อน **
 1. `สวัสดี ฉันเป็นนักศึกษา Flutter มือใหม่`
 2. `อธิบาย StatefulWidget ให้เข้าใจง่ายๆ`
 3. `ช่วยเขียน Flutter code แสดงรายการนักศึกษา 5 คน`
