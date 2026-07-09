@@ -1723,14 +1723,26 @@ flutter run
 ```
 flutter doctor output:
 ┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│  วางผลลัพธ์จาก flutter doctor ที่นี่                    │
+│   Doctor summary (to see all details, run flutter doctor -v):
+[√] Flutter (Channel stable, 3.44.5, on Microsoft Windows [Version 10.0.19045.6332], locale th-TH)
+[√] Windows Version (10 Pro 64-bit, 22H2, 2009)
+[√] Android toolchain - develop for Android devices (Android SDK version 36.1.0)
+[√] Chrome - develop for the web
+[X] Visual Studio - develop Windows apps
+    X Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+[√] Connected device (3 available)
+[√] Network resources
+
+! Doctor found issues in 1 category.                                                      │
+│   
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 
-Flutter Version: ___________________
+Flutter Version: 10.0.19045.6332
 Dart Version: ______________________
-Android SDK Version: _______________
+Android SDK Version: 36.1.0
 ```
 
 ### 3.2 Screenshot ของ Flutter App
